@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+.login-button{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    font-size: 15px;
+    cursor: pointer;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    display: flex;
+    justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu-area{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu-list{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.App-link {
-  color: #61dafb;
+.menu-list li{
+    padding: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-search{
+    margin-top: 5px;
+    margin-right: 15px;
+    position: absolute;
+}
+.menu-search input{
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #222;
+    outline: none;
+    padding-left: 20px;
+}
+.icon{
+    position: absolute;
+    padding-top: 5px;
+}
+.product-card{
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.product-card img{
+    width: 100%;
+    height: 100%;
+}
+.product-card:hover{
+    transform: scale(1.05);
+}
+.product-img{
+    display: flex;
+    justify-content: flex-end;
+    width: 396px;
+    height: 594px;
+}
+#dropdown-basic{
+    background-color: white;
+    color: #222;
+}
+#dropdown-basic:hover{
+    background-color: black;
+    color: white;
+}
+#dropdown-basic:focus{
+    border: 3px solid gray;
+}
+.product-info{
+    font-size: 25px;
+}
+.product-add{
+    width: 100px;
 }
